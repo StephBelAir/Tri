@@ -5,8 +5,8 @@
 const urlNumbersApi = `https://filrouge.uha4point0.fr/entrainementAlgoTri/10`;
 
 fetch(urlNumbersApi)
-    .then((playersRes) =>{
-        return playersRes.json()
+    .then((numbersRes) =>{
+        return numbersRes.json()
     })
     .then((numbersData)=>{
         let dataNumber="";
